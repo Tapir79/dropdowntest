@@ -11,20 +11,20 @@
                          ))
 
 (def table-contents
-  [{:id 1 :first-name "Bram"    :last-name "Moolenaar"  :known-for [:creator "Vim"
-                                                                    :studied "Active member of open source community"]}
-   {:id 2 :first-name "Richard" :last-name "Stallman"   :known-for [:creator "GNU"
-                                                                    :studied "The hacker"]}
-   {:id 3 :first-name "Dennis"  :last-name "Ritchie"    :known-for [:creator "C"
-                                                                    :studied "Smart"]}
-   {:id 4 :first-name "Rich"    :last-name "Hickey"     :known-for [:creator "Clojure"
-                                                                    :studied "Curls"]}
-   {:id 5 :first-name "Guido"   :last-name "Van Rossum" :known-for [:creator "Python"
-                                                                    :studied "Spelling OCD"]}
-   {:id 6 :first-name "Linus"   :last-name "Torvalds"   :known-for [:creator "Linux"
-                                                                    :studied "The Finn"]}
-   {:id 7 :first-name "Yehuda"  :last-name "Katz"       :known-for [:creator "Ember"
-                                                                    :studied "Agent"]}])
+  [{:id 1 :first-name "Bram" :last-name "Moolenaar" :known-for [:creator "Vim"
+                                                                :studied ""]}
+   {:id 2 :first-name "Richard" :last-name "Stallman" :known-for [:creator "GNU"
+                                                                  :studied ""]}
+   {:id 3 :first-name "Dennis" :last-name "Ritchie" :known-for [:creator "C"
+                                                                :studied ""]}
+   {:id 4 :first-name "Rich" :last-name "Hickey" :known-for [:creator "Clojure"
+                                                             :studied ""]}
+   {:id 5 :first-name "Guido" :last-name "Van Rossum" :known-for [:creator "Python"
+                                                                  :studied ""]}
+   {:id 6 :first-name "Linus" :last-name "Torvalds" :known-for [:creator "Linux"
+                                                                :studied "University of Helsinki"]}
+   {:id 7 :first-name "Yehuda" :last-name "Katz" :known-for [:creator "Ember"
+                                                             :studied ""]}])
 
 (defn lister [items]
   [:ul
